@@ -1,0 +1,141 @@
+/* Color de paleta */
+body,
+html {
+  background-color: #f3f7f8; }
+
+.row [class^="col"] {
+  background-color: rgba(0, 0, 0, 0.14); }
+
+.row [class^="box"] {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 1rem;
+  margin-bottom: 30px;
+  background: rgba(0, 127, 255, 0.24);
+  color: #fff; }
+
+/* Errores */
+/* Cuerpo */
+header {
+  height: 80px;
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  header .row [class^="box"] {
+    margin-bottom: 0; }
+  header .logotipo {
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    header .logotipo img {
+      display: block;
+      width: auto;
+      height: 40px;
+      margin: 0 auto;
+      background-color: red; }
+
+.silder {
+  display: block;
+  width: 100%;
+  height: 600px;
+  background-color: #e79ccd; }
+
+.promociones .box.foto {
+  height: 352px;
+  border-radius: 6px;
+  background-color: white;
+  background-image: url("../-img/logo_innova4d.png");
+  background-position: center;
+  background-size: cover; }
+  .promociones .box.foto.a {
+    background-image: url("../-img/producto-foto1.png"); }
+  .promociones .box.foto.b {
+    background-image: url("../-img/producto-foto2.png"); }
+  .promociones .box.foto.c {
+    background-image: url("../-img/producto-foto3.png"); }
+  .promociones .box.foto.d {
+    background-image: url("../-img/producto-foto4.png"); }
+  .promociones .box.foto.e {
+    background-image: url("../-img/producto-foto5.png"); }
+  .promociones .box.foto.f {
+    background-image: url("../-img/producto-foto6.png"); }
+
+.promociones .box .pleca {
+  position: absolute;
+  bottom: 0;
+  height: 92px;
+  width: 100%;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: rgba(86, 146, 208, 0.9); }
+  .promociones .box .pleca span {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-family: Hind;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px; }
+  .promociones .box .pleca h3 {
+    margin: 0;
+    color: #FFFFFF;
+    height: 30px;
+    color: white;
+    font-family: Hind;
+    font-size: 18px;
+    font-weigh: normal;
+    line-height: 30px; }
+
+.arma_tu_laboratorio {
+  height: 546px;
+  background-color: #FFFFFF; }
+  .arma_tu_laboratorio .container {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+
+.banner {
+  height: 274px;
+  background: -webkit-gradient(linear, left top, right top, from(#5692d0), to(#67d9d5));
+  background: -webkit-linear-gradient(left, #5692d0 0%, #67d9d5 100%);
+  background: -o-linear-gradient(left, #5692d0 0%, #67d9d5 100%);
+  background: linear-gradient(90deg, #5692d0 0%, #67d9d5 100%); }
+  .banner .container {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+
+.que_es_cad-cam {
+  background-color: #F3F7F8; }
+  .que_es_cad-cam .imagen_cad_cam {
+    width: 100%;
+    height: 555px;
+    background-image: url("../-img/que_es_cad_cam.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; }
+
+.nosotros_trabajamos_para_ti {
+  background-color: #FFFFFF; }
+
+.nuestros_socios {
+  background-color: #FFFFFF; }
+
+.contacto {
+  background-color: #FFFFFF; }
+
+/*# sourceMappingURL=_main.css.map */

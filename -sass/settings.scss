@@ -1,0 +1,72 @@
+/* Color de paleta */
+// $var: #252b4d;
+
+body,
+html {
+  background-color: rgba(243,247,248,1);
+}
+// Tamaños de .container
+//
+// LG desde [75 em 1200px] WEB
+// 76 rem 1,216 px
+//
+// MD desde [64 em 1024px] WEB
+// 65 rem 1,040 px
+//
+// SM desde [48 em 768px] iPAD
+// 49 rem 784 px
+//
+// XS menos de [768 px] CELULAR
+//
+// Para ver la grid
+
+.row [class^="col"] {
+  background-color: rgba(#000000, 0.14);
+}
+
+.row [class^="box"] {
+  position     : relative;
+  box-sizing   : border-box;
+  min-height   : 1rem;
+  margin-bottom: 30px;
+  background   : rgba(#007fff, 0.24);
+  color        : #fff;
+}
+// h1,
+// h2,
+// h3 {
+// 	font-family   : 'Montserrat', sans-serif;
+// 	font-weight   : normal;
+// 	margin        : 0.2em 0;
+// 	letter-spacing: -1px;
+// }
+//
+// h2 {
+// 	font-size: 48px;
+// }
+//
+// h3 {
+// 	font-size: 28px;
+// }
+//
+// h4 {
+// 	font-size: 18px;
+// }
+//
+// p {
+// 	font-family  : "montserrat_light", sans-serif;
+// 	font-size    : 16px;
+// 	line-height  : 24px;
+// 	margin-bottom: 40px;
+// }
+//
+// figure {
+// 	margin : 0;
+// 	padding: 0;
+// }
+//
+// img {
+// 	display: inherit;
+// 	height : auto;
+// 	width  : 100%;
+// }

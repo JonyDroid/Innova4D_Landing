@@ -1,0 +1,10 @@
+.banner {
+  height    : 274px;
+  background: linear-gradient(90deg, rgba(86,146,208,1) 0%, rgba(103,217,213,1) 100%);
+
+  .container {
+    position : relative;
+    top      : 50%;
+    transform: translateY(-50%);
+  }
+}

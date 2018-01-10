@@ -1,0 +1,10 @@
+.arma_tu_laboratorio {
+  height          : 546px;
+  background-color: #FFFFFF;
+
+  .container {
+    position : relative;
+    top      : 50%;
+    transform: translateY(-50%);
+  }
+}
