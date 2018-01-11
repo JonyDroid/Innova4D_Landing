@@ -1,5 +1,60 @@
-// promociones
-
 .nuestros_socios {
-  background-color: #FFFFFF;
+  padding   : 80px 0;
+  box-sizing: border-box;
+
+  .targeta {
+    height          : 130px;
+    background-color: #ffffff;
+  }
+
+  .socio {
+    position           : relative;
+    top                : 50%;
+    transform          : translateY(-50%);
+    margin             : 0;
+    height             : 40px;
+    border-radius      : 6px;
+    background-color   : white;
+    background-position: center;
+    background-size    : contain;
+    background-repeat  : no-repeat;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+    &.a {
+      background-image: url("../-img/nsocios_3Shape.png");
+    }
+
+    &.b {
+      height          : 30px;
+      background-image: url("../-img/nsocios_roland.png");
+    }
+
+    &.c {
+      height          : 50px;
+      background-image: url("../-img/nsocios_nabertherm.png");
+    }
+
+    &.d {
+      height          : 45px;
+      background-image: url("../-img/nsocios_vatech.png");
+    }
+
+    &.e {
+      background-image: url("../-img/nsocios_aidite.png");
+    }
+
+    &.f {
+      background-image: url("../-img/nsocios_datron.png");
+    }
+
+    &.g {
+      height          : 30px;
+      background-image: url("../-img/nsocios_formlabs.png");
+    }
+
+    &.h {
+      background-image: url("../-img/nsocios_canon.png");
+    }
+  }
 }

@@ -4,6 +4,7 @@
 body,
 html {
   background-color: rgba(243,247,248,1);
+  font-family     : 'Hind', sans-serif;
 }
 // Tamaños de .container
 //
@@ -21,7 +22,7 @@ html {
 // Para ver la grid
 
 .row [class^="col"] {
-  background-color: rgba(#000000, 0.14);
+  // background-color: rgba(#000000, 0.14);
 }
 
 .row [class^="box"] {
@@ -29,29 +30,40 @@ html {
   box-sizing   : border-box;
   min-height   : 1rem;
   margin-bottom: 30px;
-  background   : rgba(#007fff, 0.24);
-  color        : #fff;
+  // background   : rgba(#007fff, 0.24);
 }
-// h1,
-// h2,
-// h3 {
-// 	font-family   : 'Montserrat', sans-serif;
-// 	font-weight   : normal;
-// 	margin        : 0.2em 0;
-// 	letter-spacing: -1px;
-// }
-//
-// h2 {
-// 	font-size: 48px;
-// }
-//
-// h3 {
-// 	font-size: 28px;
-// }
-//
-// h4 {
-// 	font-size: 18px;
-// }
+// Tipografia
+@import url('https://fonts.googleapis.com/css?family=Hind:400,500,600,700'); // h1,
+
+h1 {
+  font-size  : 52px;
+  font-weight: 500;
+  text-align : center;
+}
+
+h2 {
+  font-size  : 40px;
+  font-weight: 500;
+  text-align : center;
+}
+
+h3 {
+  font-size  : 18px;
+  font-weight: 600;
+  text-align : left;
+}
+
+h4 {
+  font-size  : 16px;
+  font-weight: 600;
+  text-align : left;
+}
+
+h5 {
+  font-size  : 14px;
+  font-weight: 600;
+  text-align : left;
+}
 //
 // p {
 // 	font-family  : "montserrat_light", sans-serif;

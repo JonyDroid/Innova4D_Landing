@@ -1,10 +1,41 @@
 .arma_tu_laboratorio {
   height          : 546px;
+  padding         : 90px 0;
   background-color: #FFFFFF;
+  box-sizing      : border-box;
 
   .container {
     position : relative;
     top      : 50%;
     transform: translateY(-50%);
+  }
+
+  h2 {
+    margin     : 0;
+    text-align : center;
+    font-size  : 52px;
+    font-weight: 600;
+    line-height: 52px;
+  }
+
+  h3 {
+    margin     : 0;
+    text-align : center;
+    font-size  : 28px;
+    font-weight: 400;
+  }
+
+  .btn_principal {
+    height          : 45px;
+    width           : 200px;
+    padding-top     : 10px;
+    margin          : 20px auto 0;
+    border-radius   : 100px;
+    font-size       : 16px;
+    font-weight     : 500;
+    text-transform  : uppercase;
+    color           : #ffffff;
+    background-image: linear-gradient(-90deg, #67D9B9 0%, #67D9D5 100%);
+    box-sizing      : border-box;
   }
 }
