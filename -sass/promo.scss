@@ -1,0 +1,137 @@
+header {
+  .box {
+    &.foto {
+      height             : 352px;
+      border-radius      : 6px;
+      background-color   : white;
+      background-image   : url("../-img/logo_innova4d.png");
+      background-position: center;
+      background-size    : cover;
+
+      &.a {
+        background-image: url("../-img/producto-foto1.png");
+      }
+
+      &.b {
+        background-image: url("../-img/producto-foto2.png");
+      }
+
+      &.c {
+        background-image: url("../-img/producto-foto3.png");
+      }
+
+      &.d {
+        background-image: url("../-img/producto-foto4.png");
+      }
+
+      &.e {
+        background-image: url("../-img/producto-foto5.png");
+      }
+
+      &.f {
+        background-image: url("../-img/producto-foto6.png");
+      }
+    }
+
+    .pleca {
+      position        : absolute;
+      bottom          : 0;
+      height          : 92px;
+      width           : 100%;
+      padding         : 20px;
+      box-sizing      : border-box;
+      background-color: rgba(86,146,208,.9);
+
+      span {
+        margin     : 0;
+        padding    : 0;
+        color      : #FFFFFF;
+        font-family: Hind;
+        font-size  : 14px;
+        font-weight: 500;
+        line-height: 25px;
+      }
+
+      h3 {
+        margin     : 0;
+        color      : #FFFFFF;
+        height     : 30px;
+        color      : rgba(255,255,255,1);
+        font-family: Hind;
+        font-size  : 18px;
+        font-weigh : normal;
+        line-height: 30px;
+      }
+    }
+  }
+
+  .btn_whatsapp {
+    height          : 45px;
+    width           : 200px;
+    padding-top     : 10px;
+    margin          : 0 auto;
+    border-radius   : 100px;
+    font-size       : 16px;
+    font-weight     : 500;
+    text-transform  : uppercase;
+    color           : #ffffff;
+    background-image: linear-gradient(-90deg, #67D9B9 0%, #67D9D5 100%);
+    box-sizing      : border-box;
+    letter-spacing  : 0.4px;
+
+    div,
+    span {
+      float: left;
+    }
+
+    span {
+      display            : block;
+      height             : 24px;
+      width              : 24px;
+      margin-left        : 20px;
+      margin-right       : 10px;
+      background-image   : url("../-img/btn_whatsapp.png");
+      background-position: center;
+      background-size    : contain;
+      background-repeat  : no-repeat;
+    }
+  }
+
+  .btn_link {
+    height        : 45px;
+    width         : 200px;
+    padding-top   : 0;
+    border-radius : 100px;
+    font-size     : 16px;
+    font-weight   : 500;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color         : #000000;
+    border        : 0 solid #000000;
+    box-sizing    : border-box;
+
+    div,
+    span {
+      float          : left;
+      text-decoration: underline;
+    }
+
+    div.btn {
+      position : relative;
+      top      : 10px;
+      left     : 50%;
+      transform: translateX(-50%);
+    }
+
+    span {
+      display            : block;
+      height             : 24px;
+      width              : 24px;
+      background-image   : url("../-img/link_flecha.png");
+      background-position: center;
+      background-size    : contain;
+      background-repeat  : no-repeat;
+      transform          : rotate(180deg);
+    }
+  }
+}
