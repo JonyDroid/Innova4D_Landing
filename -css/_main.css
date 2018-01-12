@@ -561,16 +561,30 @@ header .btn_link {
     background-size: cover; }
     .promo_datos .box.foto.a {
       background-image: url("../-img/producto-foto1.png"); }
-    .promo_datos .box.foto.b {
-      background-image: url("../-img/producto-foto2.png"); }
-    .promo_datos .box.foto.c {
-      background-image: url("../-img/producto-foto3.png"); }
-    .promo_datos .box.foto.d {
-      background-image: url("../-img/producto-foto4.png"); }
-    .promo_datos .box.foto.e {
-      background-image: url("../-img/producto-foto5.png"); }
-    .promo_datos .box.foto.f {
-      background-image: url("../-img/producto-foto6.png"); }
+  .promo_datos .box .titulo {
+    text-align: left;
+    margin: 0; }
+  .promo_datos .box h4 {
+    margin: 0;
+    /* Enganche: $80,000 MX: */
+    font-size: 24px;
+    font-weight: 500;
+    color: #000A12;
+    letter-spacing: 0; }
+  .promo_datos .box .sub_titulo {
+    margin: 0; }
+  .promo_datos .box .lista {
+    /* - Escaner 3Shape E1: */
+    color: #000A12;
+    letter-spacing: 0;
+    line-height: 30px; }
+    .promo_datos .box .lista strong {
+      font-weight: 700; }
+  .promo_datos .box .contacto {
+    padding: 0; }
+    .promo_datos .box .contacto h3 {
+      text-align: left;
+      margin: 0 0 20px; }
   .promo_datos .box .pleca {
     position: absolute;
     bottom: 0;

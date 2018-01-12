@@ -13,25 +13,44 @@
       &.a {
         background-image: url("../-img/producto-foto1.png");
       }
+    }
 
-      &.b {
-        background-image: url("../-img/producto-foto2.png");
+    .titulo {
+      text-align: left;
+      margin    : 0;
+    }
+
+    h4 {
+      margin        : 0;
+      /* Enganche: $80,000 MX: */
+      font-size     : 24px;
+      font-weight   : 500;
+      color         : #000A12;
+      letter-spacing: 0;
+    }
+
+    .sub_titulo {
+      margin: 0;
+    }
+
+    .lista {
+      /* - Escaner 3Shape E1: */
+      // font-size     : 20px;
+      color         : #000A12;
+      letter-spacing: 0;
+      line-height   : 30px;
+
+      strong {
+        font-weight: 700;
       }
+    }
 
-      &.c {
-        background-image: url("../-img/producto-foto3.png");
-      }
+    .contacto {
+      padding: 0;
 
-      &.d {
-        background-image: url("../-img/producto-foto4.png");
-      }
-
-      &.e {
-        background-image: url("../-img/producto-foto5.png");
-      }
-
-      &.f {
-        background-image: url("../-img/producto-foto6.png");
+      h3 {
+        text-align: left;
+        margin    : 0 0 20px;
       }
     }
 
