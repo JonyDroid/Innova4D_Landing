@@ -1,6 +1,6 @@
 .footer {
   box-sizing: border-box;
-  padding   : 80px 0;
+  padding   : 80px 0 0;
   // background-color: #FFFFFF;
   .box {
     padding         : 20px;
@@ -50,5 +50,11 @@
     .f {
       background-image: url("../-img/rs_mail.png");
     }
+  }
+}
+// SM desde [48 em 768px] iPAD
+@media only screen and (min-width: 48em) {
+  .footer {
+    padding: 80px 0 0;
   }
 }
