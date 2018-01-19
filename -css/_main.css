@@ -443,41 +443,6 @@ header {
     padding: 80px 0 0; } }
 
 /*Promociones */
-header .box.foto {
-  height: 352px;
-  border-radius: 6px;
-  background-color: white;
-  background-image: url("../-img/logo_innova4d.png");
-  background-position: center;
-  background-size: cover; }
-  header .box.foto.a {
-    background-image: url("../-img/producto-foto1.png");
-    margin-bottom: 30px; }
-  header .box.foto.b {
-    background-image: url("../-img/producto-foto2.png");
-    margin-bottom: 30px; }
-  header .box.foto.c {
-    background-image: url("../-img/producto-foto3.png");
-    margin-bottom: 30px; }
-  header .box.foto.d {
-    background-image: url("../-img/producto-foto4.png");
-    margin-bottom: 30px; }
-  header .box.foto.e {
-    background-image: url("../-img/producto-foto5.png");
-    margin-bottom: 30px; }
-  header .box.foto.f {
-    background-image: url("../-img/producto-foto6.png");
-    margin-bottom: 30px; }
-
-@media only screen and (max-width: 47em) {
-  header .box .box.foto {
-    height: 352px;
-    border-radius: 6px;
-    background-color: white;
-    background-image: url("../-img/logo_innova4d.png");
-    background-position: center;
-    background-size: cover; } }
-
 header .box .pleca {
   position: absolute;
   bottom: 0;
@@ -708,8 +673,7 @@ header .btn_link {
 .equipos_promo {
   padding: 30px 0; }
   .equipos_promo .box.foto {
-    margin-bottom: 0;
-    border-radius: 6px 6px 0 0; }
+    margin-bottom: 0; }
   .equipos_promo .descripcion {
     padding: 20px;
     -webkit-box-sizing: border-box;
@@ -746,24 +710,94 @@ header .btn_link {
           background-repeat: no-repeat; }
 
 .foto {
+  height: 100%;
   border-radius: 0;
   background-color: white;
   background-position: center;
   background-size: cover; }
   .foto.a {
-    height: 100%;
     background-image: url("../-img/producto-foto1.png");
     margin-bottom: 0; }
+  .foto.b {
+    background-image: url("../-img/producto-foto2.png");
+    margin-bottom: 30px; }
+  .foto.c {
+    background-image: url("../-img/producto-foto3.png");
+    margin-bottom: 30px; }
+  .foto.d {
+    background-image: url("../-img/producto-foto4.png");
+    margin-bottom: 30px; }
+  .foto.e {
+    background-image: url("../-img/producto-foto5.png");
+    margin-bottom: 30px; }
+  .foto.f {
+    background-image: url("../-img/producto-foto6.png");
+    margin-bottom: 30px; }
   .foto.producto_1_a {
-    height: 300px;
+    height: 370px;
     background-image: url("../-img/producto_1_a.png"); }
   .foto.producto_1_b {
-    height: 300px;
+    height: 370px;
     background-image: url("../-img/producto_1_b.png");
     margin-bottom: 0; }
   .foto.producto_1_c {
-    height: 300px;
+    height: 370px;
     background-image: url("../-img/producto_1_c.png");
+    margin-bottom: 0; }
+  .foto.producto_2_a {
+    height: 370px;
+    background-image: url("../-img/producto_2_a.png"); }
+  .foto.producto_2_b {
+    height: 370px;
+    background-image: url("../-img/producto_2_b.png");
+    margin-bottom: 0; }
+  .foto.producto_2_c {
+    height: 370px;
+    background-image: url("../-img/producto_2_c.png");
+    margin-bottom: 0; }
+  .foto.producto_3_a {
+    height: 370px;
+    background-image: url("../-img/producto_3_a.png"); }
+  .foto.producto_3_b {
+    height: 370px;
+    background-image: url("../-img/producto_3_b.png");
+    margin-bottom: 0; }
+  .foto.producto_3_c {
+    height: 370px;
+    background-image: url("../-img/producto_3_c.png");
+    margin-bottom: 0; }
+  .foto.producto_4_a {
+    height: 370px;
+    background-image: url("../-img/producto_4_a.png"); }
+  .foto.producto_4_b {
+    height: 370px;
+    background-image: url("../-img/producto_4_b.png");
+    margin-bottom: 0; }
+  .foto.producto_4_c {
+    height: 370px;
+    background-image: url("../-img/producto_4_c.png");
+    margin-bottom: 0; }
+  .foto.producto_5_a {
+    height: 370px;
+    background-image: url("../-img/producto_5_a.png"); }
+  .foto.producto_5_b {
+    height: 370px;
+    background-image: url("../-img/producto_5_b.png");
+    margin-bottom: 0; }
+  .foto.producto_5_c {
+    height: 370px;
+    background-image: url("../-img/producto_5_c.png");
+    margin-bottom: 0; }
+  .foto.producto_6_a {
+    height: 370px;
+    background-image: url("../-img/producto_6_a.png"); }
+  .foto.producto_6_b {
+    height: 370px;
+    background-image: url("../-img/producto_6_b.png");
+    margin-bottom: 0; }
+  .foto.producto_6_c {
+    height: 370px;
+    background-image: url("../-img/producto_6_c.png");
     margin-bottom: 0; }
 
 @media only screen and (max-width: 47em) {
@@ -772,7 +806,13 @@ header .btn_link {
     .promo_datos .box.foto {
       height: 200px; }
       .promo_datos .box.foto.a {
-        margin-bottom: 20px; } }
+        margin-bottom: 20px; }
+  .box.foto {
+    height: 352px;
+    border-radius: 6px;
+    background-color: white;
+    background-position: center;
+    background-size: cover; } }
 
 @media only screen and (min-width: 48em) {
   .equipos_promo .descripcion .btn_pdf {

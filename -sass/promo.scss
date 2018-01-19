@@ -1,57 +1,5 @@
 header {
   .box {
-    &.foto {
-      height             : 352px;
-      border-radius      : 6px;
-      background-color   : white;
-      background-image   : url("../-img/logo_innova4d.png");
-      background-position: center;
-      background-size    : cover;
-
-      &.a {
-        background-image: url("../-img/producto-foto1.png");
-        margin-bottom   : 30px;
-      }
-
-      &.b {
-        background-image: url("../-img/producto-foto2.png");
-        margin-bottom   : 30px;
-      }
-
-      &.c {
-        background-image: url("../-img/producto-foto3.png");
-        margin-bottom   : 30px;
-      }
-
-      &.d {
-        background-image: url("../-img/producto-foto4.png");
-        margin-bottom   : 30px;
-      }
-
-      &.e {
-        background-image: url("../-img/producto-foto5.png");
-        margin-bottom   : 30px;
-      }
-
-      &.f {
-        background-image: url("../-img/producto-foto6.png");
-        margin-bottom   : 30px;
-      }
-    }
-    // XS menos de [768 px] CELULAR
-    @media only screen and (max-width: 47em) {
-      .box {
-        &.foto {
-          height             : 352px;
-          border-radius      : 6px;
-          background-color   : white;
-          background-image   : url("../-img/logo_innova4d.png");
-          background-position: center;
-          background-size    : cover;
-        }
-      }
-    }
-
     .pleca {
       position        : absolute;
       bottom          : 0;
@@ -329,7 +277,6 @@ header {
 
   .box.foto {
     margin-bottom: 0;
-    border-radius: 6px 6px 0 0;
   }
 
   .descripcion {
@@ -375,31 +322,141 @@ header {
 }
 
 .foto {
+  height             : 100%;
   border-radius      : 0;
   background-color   : white;
   background-position: center;
   background-size    : cover;
 
   &.a {
-    height          : 100%;
     background-image: url("../-img/producto-foto1.png");
     margin-bottom   : 0;
   }
 
+  &.b {
+    background-image: url("../-img/producto-foto2.png");
+    margin-bottom   : 30px;
+  }
+
+  &.c {
+    background-image: url("../-img/producto-foto3.png");
+    margin-bottom   : 30px;
+  }
+
+  &.d {
+    background-image: url("../-img/producto-foto4.png");
+    margin-bottom   : 30px;
+  }
+
+  &.e {
+    background-image: url("../-img/producto-foto5.png");
+    margin-bottom   : 30px;
+  }
+
+  &.f {
+    background-image: url("../-img/producto-foto6.png");
+    margin-bottom   : 30px;
+  }
+  // producto 1
   &.producto_1_a {
-    height          : 300px;
+    height          : 370px;
     background-image: url("../-img/producto_1_a.png");
   }
 
   &.producto_1_b {
-    height          : 300px;
+    height          : 370px;
     background-image: url("../-img/producto_1_b.png");
     margin-bottom   : 0;
   }
 
   &.producto_1_c {
-    height          : 300px;
+    height          : 370px;
     background-image: url("../-img/producto_1_c.png");
+    margin-bottom   : 0;
+  }
+  // Producto 2
+  &.producto_2_a {
+    height          : 370px;
+    background-image: url("../-img/producto_2_a.png");
+  }
+
+  &.producto_2_b {
+    height          : 370px;
+    background-image: url("../-img/producto_2_b.png");
+    margin-bottom   : 0;
+  }
+
+  &.producto_2_c {
+    height          : 370px;
+    background-image: url("../-img/producto_2_c.png");
+    margin-bottom   : 0;
+  }
+  // Producto 3
+  &.producto_3_a {
+    height          : 370px;
+    background-image: url("../-img/producto_3_a.png");
+  }
+
+  &.producto_3_b {
+    height          : 370px;
+    background-image: url("../-img/producto_3_b.png");
+    margin-bottom   : 0;
+  }
+
+  &.producto_3_c {
+    height          : 370px;
+    background-image: url("../-img/producto_3_c.png");
+    margin-bottom   : 0;
+  }
+  // Producto 4
+  &.producto_4_a {
+    height          : 370px;
+    background-image: url("../-img/producto_4_a.png");
+  }
+
+  &.producto_4_b {
+    height          : 370px;
+    background-image: url("../-img/producto_4_b.png");
+    margin-bottom   : 0;
+  }
+
+  &.producto_4_c {
+    height          : 370px;
+    background-image: url("../-img/producto_4_c.png");
+    margin-bottom   : 0;
+  }
+  // Producto 5
+  &.producto_5_a {
+    height          : 370px;
+    background-image: url("../-img/producto_5_a.png");
+  }
+
+  &.producto_5_b {
+    height          : 370px;
+    background-image: url("../-img/producto_5_b.png");
+    margin-bottom   : 0;
+  }
+
+  &.producto_5_c {
+    height          : 370px;
+    background-image: url("../-img/producto_5_c.png");
+    margin-bottom   : 0;
+  }
+  // Producto 6
+  &.producto_6_a {
+    height          : 370px;
+    background-image: url("../-img/producto_6_a.png");
+  }
+
+  &.producto_6_b {
+    height          : 370px;
+    background-image: url("../-img/producto_6_b.png");
+    margin-bottom   : 0;
+  }
+
+  &.producto_6_c {
+    height          : 370px;
+    background-image: url("../-img/producto_6_c.png");
     margin-bottom   : 0;
   }
 }
@@ -414,6 +471,16 @@ header {
       &.a {
         margin-bottom: 20px;
       }
+    }
+  }
+
+  .box {
+    &.foto {
+      height             : 352px;
+      border-radius      : 6px;
+      background-color   : white;
+      background-position: center;
+      background-size    : cover;
     }
   }
 }
