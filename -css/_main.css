@@ -92,6 +92,8 @@ header {
       border-radius: 100px;
       font-size: 16px;
       color: #ffffff; }
+      header .menu_principal .whatsapp a {
+        color: #ffffff; }
       header .menu_principal .whatsapp div {
         float: left;
         margin-top: 12px; }
