@@ -1,0 +1,199 @@
+.productos {
+  padding: 30px 0;
+
+  h3 {
+    font-size     : 24px;
+    color         : #000A12;
+    letter-spacing: 0;
+    padding       : 0 10px;
+    box-sizing    : border-box;
+  }
+
+  .paquetes_seleccionado {
+    background-color: white;
+  }
+
+  .titulos {
+    width         : 100%;
+    font-size     : 16px;
+    color         : #000A12;
+    letter-spacing: 0;
+    line-height   : 25px;
+    padding       : 0 10px;
+    box-sizing    : border-box;
+
+    div {
+      float: left;
+      width: 50%;
+
+      &.producto {
+        text-align: left;
+      }
+
+      &.subtotal {
+        text-align: right;
+      }
+    }
+  }
+
+  .productos_activos {
+    width     : 100%;
+    height    : 40px;
+    float     : left;
+    clear     : both;
+    padding   : 0 10px;
+    box-sizing: border-box;
+
+    div {
+      text-align   : center;
+      float        : left;
+      box-sizing   : border-box;
+      margin-top   : 8px;
+      text-overflow: ellipsis;
+      white-space  : nowrap;
+
+      &.uno {
+        width: 7%;
+      }
+
+      &.dos {
+        width: 7%;
+      }
+
+      &.tres {
+        width: 7%;
+      }
+
+      &.cuatro {
+        width       : 49%;
+        text-align  : left;
+        padding-left: 10px;
+      }
+
+      &.cinco {
+        width     : 30%;
+        text-align: right;
+      }
+    }
+  }
+
+  .total_productos {
+    width         : 100%;
+    height        : 40px;
+    float         : left;
+    clear         : both;
+    padding-top   : 8px;
+    margin-bottom : 30px;
+    font-size     : 16px;
+    font-weight   : 600;
+    color         : #000A12;
+    letter-spacing: 0;
+    line-height   : 25px;
+    padding       : 0 10px;
+    box-sizing    : border-box;
+
+    div {
+      float: left;
+    }
+
+    .total {
+      width     : 30%;
+      text-align: left;
+    }
+
+    .precio {
+      width     : 70%;
+      text-align: right;
+    }
+  }
+
+  .cliente {
+    width     : 100%;
+    clear     : both;
+    padding   : 0 10px;
+    box-sizing: border-box;
+  }
+  // lado derecho
+  .mi_producto {
+    input.radio {
+      position: absolute;
+      top     : 10px;
+      left    : 10px;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .producto {
+      display   : block;
+      position  : relative;
+      margin    : -34px 0 0;
+      padding   : 0;
+      box-sizing: border-box;
+
+      .pdf,
+      .texto {
+        float     : left;
+        box-sizing: border-box;
+      }
+
+      div.texto {
+        display : block;
+        position: relative;
+        width   : 80%;
+
+        .tipo {
+          display         : block;
+          position        : relative;
+          width           : 100%;
+          height          : 25px;
+          font-size       : 10px;
+          padding         : 0 20px;
+          background-color: rgba(#ffffff, 0.85);
+          color           : #000000;
+          letter-spacing  : 0;
+          line-height     : 25px;
+          text-transform  : uppercase;
+          box-sizing      : border-box;
+        }
+
+        .nombre {
+          height        : 25px;
+          font-size     : 12px;
+          color         : #FFFFFF;
+          letter-spacing: 0;
+          line-height   : 35px;
+          /* Deg: */
+          padding       : 0 20px;
+          background    : #5692D0;
+        }
+
+        .precio {
+          height        : 30px;
+          font-size     : 14px;
+          color         : #FFFFFF;
+          letter-spacing: 0;
+          line-height   : 25px;
+          /* Deg: */
+          padding       : 0 20px;
+          background    : #5692D0;
+        }
+      }
+
+      div.pdf {
+        display         : block;
+        position        : relative;
+        width           : 20%;
+        background-color: blue;
+
+        span {
+          display         : block;
+          width           : 24px;
+          height          : 24px;
+          background-color: red;
+        }
+      }
+    }
+  }
+}
