@@ -53,3 +53,36 @@
     }
   }
 }
+
+.modal {
+  max-width : 50% !important;
+  text-align: center;
+
+  img.foto_modal {
+    display   : block;
+    width     : 100%;
+    height    : 170px;
+    position  : relative;
+    text-align: center;
+  }
+
+  img.logo {
+    display   : block;
+    height    : 50px;
+    position  : relative;
+    margin    : 30px auto;
+    text-align: center;
+  }
+
+  h4,
+  p {
+    text-align: center;
+  }
+
+  h4 {
+    /* Empresa: */
+    font-size     : 20px;
+    color         : #000A12;
+    letter-spacing: 0;
+  }
+}

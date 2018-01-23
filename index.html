@@ -239,12 +239,26 @@
           <div class="box">
             <h2>Nosotros trabajamos para tí</h2>
             <h3>Marcamos la diferencia</h3>
-            <div class="btn_link ">
-              <div class="btn">
-                <div>Sobre innova 4D</div>
-                <span></span>
-              </div>
+
+            <!-- Modal HTML embedded directly into document -->
+            <div id="ex1" class="modal">
+              <img class="logo" src="-img/logo_innova4d.png" alt="">
+              <h4>Empresa</h4>
+              <p>Importadora y distribuidora de equipos digitales, software, sistemas CAD-CAM e insumos para clínicas odontológicas y laboratorios técnicos dentales.</p>
+              <h4>Nuestro objetivo</h4>
+              <p>Facilitamos el acceso a Odontologos y Tecnicos dentales a tecnología e insumos de última generación con precios accesibles para que ofrezcan servicios y productos de la mejor calidad. </p>
+              <!-- <a href="#" rel="modal:close">Close</a> -->
             </div>
+
+            <!-- Link to open the modal -->
+            <a href="#ex1" rel="modal:open">
+              <div class="btn_link ">
+                <div class="btn">
+                  <div>Sobre innova 4D</div>
+                  <span></span>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
 
@@ -418,5 +432,6 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="-scripts/actions.js"></script>
+<script type="text/javascript" src="-scripts/modal.js"></script>
 
 </html>
