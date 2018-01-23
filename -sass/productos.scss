@@ -115,6 +115,9 @@
   }
   // lado derecho
   .mi_producto {
+    display : block;
+    position: relative;
+
     input.radio {
       position: absolute;
       top     : 10px;
@@ -125,8 +128,15 @@
       width: 100%;
     }
 
+    .box.foto {
+      display: block;
+      height : inherit;
+      float  : left;
+    }
+
     .producto {
       display   : block;
+      height    : 80px;
       position  : relative;
       margin    : -34px 0 0;
       padding   : 0;
@@ -134,6 +144,7 @@
 
       .pdf,
       .texto {
+        height    : 80px;
         float     : left;
         box-sizing: border-box;
       }
@@ -159,14 +170,14 @@
         }
 
         .nombre {
-          height        : 25px;
-          font-size     : 12px;
-          color         : #FFFFFF;
-          letter-spacing: 0;
-          line-height   : 35px;
+          height          : 25px;
+          font-size       : 12px;
+          color           : #FFFFFF;
+          letter-spacing  : 0;
+          line-height     : 35px;
           /* Deg: */
-          padding       : 0 20px;
-          background    : #5692D0;
+          padding         : 0 20px;
+          background-color: #5692D0;
         }
 
         .precio {
@@ -182,16 +193,30 @@
       }
 
       div.pdf {
-        display         : block;
-        position        : relative;
-        width           : 20%;
-        background-color: blue;
+        display : block;
+        position: relative;
+        width   : 20%;
 
-        span {
-          display         : block;
-          width           : 24px;
-          height          : 24px;
-          background-color: red;
+        .uno {
+          height          : 25px;
+          background-color: rgba(#ffffff, 0.85);
+        }
+
+        .dos {
+          height          : 25px;
+          padding         : 15px 0;
+          background-color: #5692D0;
+
+          span {
+            display            : block;
+            width              : 24px;
+            height             : 24px;
+            margin             : 0 auto;
+            background-image   : url("../-img/btn_pdf_blanco.png");
+            background-position: center;
+            background-size    : contain;
+            background-repeat  : no-repeat;
+          }
         }
       }
     }

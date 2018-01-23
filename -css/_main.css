@@ -923,69 +923,88 @@ header .btn_link {
     padding: 0 10px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
-  .productos .mi_producto input.radio {
-    position: absolute;
-    top: 10px;
-    left: 10px; }
-  .productos .mi_producto img {
-    width: 100%; }
-  .productos .mi_producto .producto {
+  .productos .mi_producto {
     display: block;
-    position: relative;
-    margin: -34px 0 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box; }
-    .productos .mi_producto .producto .pdf,
-    .productos .mi_producto .producto .texto {
-      float: left;
+    position: relative; }
+    .productos .mi_producto input.radio {
+      position: absolute;
+      top: 10px;
+      left: 10px; }
+    .productos .mi_producto img {
+      width: 100%; }
+    .productos .mi_producto .box.foto {
+      display: block;
+      height: inherit;
+      float: left; }
+    .productos .mi_producto .producto {
+      display: block;
+      height: 80px;
+      position: relative;
+      margin: -34px 0 0;
+      padding: 0;
       -webkit-box-sizing: border-box;
       box-sizing: border-box; }
-    .productos .mi_producto .producto div.texto {
-      display: block;
-      position: relative;
-      width: 80%; }
-      .productos .mi_producto .producto div.texto .tipo {
-        display: block;
-        position: relative;
-        width: 100%;
-        height: 25px;
-        font-size: 10px;
-        padding: 0 20px;
-        background-color: rgba(255, 255, 255, 0.85);
-        color: #000000;
-        letter-spacing: 0;
-        line-height: 25px;
-        text-transform: uppercase;
+      .productos .mi_producto .producto .pdf,
+      .productos .mi_producto .producto .texto {
+        height: 80px;
+        float: left;
         -webkit-box-sizing: border-box;
         box-sizing: border-box; }
-      .productos .mi_producto .producto div.texto .nombre {
-        height: 25px;
-        font-size: 12px;
-        color: #FFFFFF;
-        letter-spacing: 0;
-        line-height: 35px;
-        /* Deg: */
-        padding: 0 20px;
-        background: #5692D0; }
-      .productos .mi_producto .producto div.texto .precio {
-        height: 30px;
-        font-size: 14px;
-        color: #FFFFFF;
-        letter-spacing: 0;
-        line-height: 25px;
-        /* Deg: */
-        padding: 0 20px;
-        background: #5692D0; }
-    .productos .mi_producto .producto div.pdf {
-      display: block;
-      position: relative;
-      width: 20%;
-      background-color: blue; }
-      .productos .mi_producto .producto div.pdf span {
+      .productos .mi_producto .producto div.texto {
         display: block;
-        width: 24px;
-        height: 24px;
-        background-color: red; }
+        position: relative;
+        width: 80%; }
+        .productos .mi_producto .producto div.texto .tipo {
+          display: block;
+          position: relative;
+          width: 100%;
+          height: 25px;
+          font-size: 10px;
+          padding: 0 20px;
+          background-color: rgba(255, 255, 255, 0.85);
+          color: #000000;
+          letter-spacing: 0;
+          line-height: 25px;
+          text-transform: uppercase;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+        .productos .mi_producto .producto div.texto .nombre {
+          height: 25px;
+          font-size: 12px;
+          color: #FFFFFF;
+          letter-spacing: 0;
+          line-height: 35px;
+          /* Deg: */
+          padding: 0 20px;
+          background-color: #5692D0; }
+        .productos .mi_producto .producto div.texto .precio {
+          height: 30px;
+          font-size: 14px;
+          color: #FFFFFF;
+          letter-spacing: 0;
+          line-height: 25px;
+          /* Deg: */
+          padding: 0 20px;
+          background: #5692D0; }
+      .productos .mi_producto .producto div.pdf {
+        display: block;
+        position: relative;
+        width: 20%; }
+        .productos .mi_producto .producto div.pdf .uno {
+          height: 25px;
+          background-color: rgba(255, 255, 255, 0.85); }
+        .productos .mi_producto .producto div.pdf .dos {
+          height: 25px;
+          padding: 15px 0;
+          background-color: #5692D0; }
+          .productos .mi_producto .producto div.pdf .dos span {
+            display: block;
+            width: 24px;
+            height: 24px;
+            margin: 0 auto;
+            background-image: url("../-img/btn_pdf_blanco.png");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat; }
 
 /*# sourceMappingURL=_main.css.map */
